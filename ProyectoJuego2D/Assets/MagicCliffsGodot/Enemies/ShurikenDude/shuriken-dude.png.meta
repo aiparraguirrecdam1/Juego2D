@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: shuriken-dude_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb77adbe48285d408d879a33d02fd27
+      internalID: 155074309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9762de7521720e248bd1dcf240541fe7
+      internalID: 1832110931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 47
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4691609edc60dbc428f049987a8a9fb3
+      internalID: -1382027396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15d45ae55cd81c439dd1745fd985008
+      internalID: 154785697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3883c9fe3df204ba2a3a932a10d514
+      internalID: 1176740558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 18
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee74b1a2f287214396ff2d1ff42cd59
+      internalID: 1818064901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4893fda5cbd7a4bb5967450b0f5d80
+      internalID: -2117515855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef9f461cdad04a409343308a3b991c2
+      internalID: 660948054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_8
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebde696701ef1d24b98844e0b30fe932
+      internalID: 1231897306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf18cfe5344d07442abb5684360ee832
+      internalID: 415538446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shuriken-dude_10
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f5e7a948d2f6d489687d0c790608a9
+      internalID: 2047924043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +350,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shuriken-dude_0: 155074309
+      shuriken-dude_1: 1832110931
+      shuriken-dude_10: 2047924043
+      shuriken-dude_2: -1382027396
+      shuriken-dude_3: 154785697
+      shuriken-dude_4: 1176740558
+      shuriken-dude_5: 1818064901
+      shuriken-dude_6: -2117515855
+      shuriken-dude_7: 660948054
+      shuriken-dude_8: 1231897306
+      shuriken-dude_9: 415538446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
