@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerFrog : MonoBehaviour
+public class Jugador : MonoBehaviour
 {
     Rigidbody2D rb2d;
     float horizontal;
@@ -22,7 +22,6 @@ public class PlayerFrog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
         horizontal = Input.GetAxis("Horizontal");
         if (horizontal != 0)
             isRunning = true;
