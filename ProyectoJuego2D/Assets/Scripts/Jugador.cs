@@ -12,6 +12,7 @@ public class Jugador : MonoBehaviour
     public LayerMask capaSuelo;
     bool isRunning = false;
     bool isJumping = false;
+    bool isAttacking = false;
     Animator animator;
     
 
@@ -24,6 +25,7 @@ public class Jugador : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.SetBool("isRunning", isRunning);
         animator.SetBool("isJumping", isJumping);
+        animator.SetBool("isAttacking", isAttacking);
     }
 
     // Update is called once per frame
@@ -50,6 +52,8 @@ public class Jugador : MonoBehaviour
         }
 
         ProcesarSalto();
+        DetectarCaidaDelMapa();
+        Atacar();
     }
 
     bool EstaEnSuelo()
@@ -72,6 +76,31 @@ public class Jugador : MonoBehaviour
         {
             isJumping = false;
             animator.SetBool("isJumping", isJumping);
+        }
+    }
+
+    void DetectarCaidaDelMapa()
+    {
+        Vector3 jugadorPosition = transform.position;
+        float limiteInferior = -10f;
+
+        if (jugadorPosition.y < limiteInferior) {
+            transform.position = new Vector3(-13.8f, -2.81f, 0f);
+        }
+    }
+
+    void Atacar()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            isAttacking = true;
+            animator.SetBool("isAttacking", isAttacking);
+        }
+
+        if (!Input.GetMouseButtonDown(0))
+        {
+            isAttacking = false;
+            animator.SetBool("isAttacking", isAttacking);
         }
     }
 }

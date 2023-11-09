@@ -5,6 +5,8 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
+    public int valor = 1;
+    public GameManager gameManager;
     void Start()
     {
 
@@ -20,6 +22,7 @@ public class Coin : MonoBehaviour
     {
            if (collision.CompareTag("Player"))
         {
+            gameManager.sumarPuntos(valor);
             Destroy(this.gameObject);
         }
     }
