@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     private int puntosTotales;
     public HUD hud;
     private int vidas = 3;
+    public Jugador jugador;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,10 @@ public class GameManager : MonoBehaviour
     {
         vidas -= 1;
         hud.DesactivarVida(vidas);
+        if (vidas == 0)
+        {
+            jugador.transform.position = new Vector3(-13.8f, -2.81f, 0f);
+        }
     }
 
     public void RecuperarVida()

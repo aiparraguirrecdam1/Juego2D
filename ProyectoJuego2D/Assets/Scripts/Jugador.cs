@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Jugador : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class Jugador : MonoBehaviour
     bool isRunning = false;
     bool isJumping = false;
     bool isAttacking = false;
+    public GameManager GameManager;
+    public Jugador jugador;
     Animator animator;
     
 
@@ -54,6 +57,7 @@ public class Jugador : MonoBehaviour
         ProcesarSalto();
         DetectarCaidaDelMapa();
         Atacar();
+        cambiarEscena();
     }
 
     bool EstaEnSuelo()
@@ -85,7 +89,9 @@ public class Jugador : MonoBehaviour
         float limiteInferior = -10f;
 
         if (jugadorPosition.y < limiteInferior) {
-            transform.position = new Vector3(-13.8f, -2.81f, 0f);
+            RestablecerPosicion();
+            GameManager.PerderVida();
+            
         }
     }
 
@@ -101,6 +107,20 @@ public class Jugador : MonoBehaviour
         {
             isAttacking = false;
             animator.SetBool("isAttacking", isAttacking);
+        }
+    }
+
+    public void RestablecerPosicion()
+    {
+        transform.position = new Vector3(-13.8f, -2.81f, 0f);
+    }
+
+    public void cambiarEscena()
+    {
+        Vector3 jugadorPosition = transform.position;
+        if (jugadorPosition.x >= 60 && jugadorPosition.x <= 62)
+        {
+            SceneManager.LoadScene("Final");
         }
     }
 }
