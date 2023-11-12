@@ -25,22 +25,21 @@ public class Jugador : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
-        animator = GetComponent<Animator>();
-        animator.SetBool("isRunning", isRunning);
-        animator.SetBool("isJumping", isJumping);
-        animator.SetBool("isAttacking", isAttacking);
+        //animator.SetBool("isRunning", isRunning);
+        //animator.SetBool("isJumping", isJumping);
+        //animator.SetBool("isAttacking", isAttacking);
     }
 
     // Update is called once per frame
     void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
-        if (horizontal != 0)
+        /*if (horizontal != 0)
             isRunning = true;
         else
-            isRunning = false;
+            isRunning = false;*/
         
-        animator.SetBool("isRunning", isRunning);
+        //animator.SetBool("isRunning", isRunning);
         Vector2 velocity = rb2d.velocity;
         velocity.x = horizontal * speed;
         rb2d.velocity = velocity;
@@ -73,13 +72,13 @@ public class Jugador : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && EstaEnSuelo())
         {
             rb2d.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
-            isJumping = true;
-            animator.SetBool("isJumping", isJumping);
+            //isJumping = true;
+            //animator.SetBool("isJumping", isJumping);
         }
         else
         {
-            isJumping = false;
-            animator.SetBool("isJumping", isJumping);
+            //isJumping = false;
+            //animator.SetBool("isJumping", isJumping);
         }
     }
 
@@ -90,8 +89,6 @@ public class Jugador : MonoBehaviour
 
         if (jugadorPosition.y < limiteInferior) {
             RestablecerPosicion();
-            GameManager.PerderVida();
-            
         }
     }
 
@@ -99,14 +96,14 @@ public class Jugador : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            isAttacking = true;
-            animator.SetBool("isAttacking", isAttacking);
+            //isAttacking = true;
+            //animator.SetBool("isAttacking", isAttacking);
         }
 
         if (!Input.GetMouseButtonDown(0))
         {
-            isAttacking = false;
-            animator.SetBool("isAttacking", isAttacking);
+            //isAttacking = false;
+            //animator.SetBool("isAttacking", isAttacking);
         }
     }
 

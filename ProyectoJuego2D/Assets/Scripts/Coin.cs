@@ -22,6 +22,7 @@ public class Coin : MonoBehaviour
     {
            if (collision.CompareTag("Player"))
         {
+            Debug.Log("Colision");
             gameManager.sumarPuntos(valor);
             Destroy(this.gameObject);
         }
