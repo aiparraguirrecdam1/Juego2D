@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         if (vidas == 0)
         {
             Jugador.transform.position = new Vector3(-13.8f, -2.81f, 0f);
-            for (int i = 0; i <= vidas; i++)
+            for (int i = 0; i < vidas; i++)
             {
                 RecuperarVida();
             }
