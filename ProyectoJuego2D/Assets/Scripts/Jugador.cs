@@ -5,19 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Jugador : MonoBehaviour
 {
-    Rigidbody2D rb2d;
     private BoxCollider2D boxCollider;
     float horizontal;
     float speed = 5f;
-    public float fuerzaSalto;
-    public LayerMask capaSuelo;
     bool isRunning = false;
     bool isJumping = false;
     bool isAttacking = false;
     public GameManager GameManager;
     public Jugador jugador;
+    public float fuerzaSalto;
+    public LayerMask capaSuelo;
+    public LayerMask capaPinchos;
     Animator animator;
-    
+    Rigidbody2D rb2d;
 
     // Start is called before the first frame update
     void Start()
@@ -67,9 +67,17 @@ public class Jugador : MonoBehaviour
         return raycast.collider != null;
     }
 
+    bool EstaEnPinchos()
+    {
+        RaycastHit2D raycast = Physics2D.BoxCast(boxCollider.bounds.center,
+            new Vector2(boxCollider.bounds.size.x,
+            boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, capaPinchos);
+        return raycast.collider != null;
+    }
+
     void ProcesarSalto()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && EstaEnSuelo())
+        if (Input.GetKeyDown(KeyCode.Space) && (EstaEnSuelo() || EstaEnPinchos()))
         {
             rb2d.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
             isJumping = true;
@@ -114,11 +122,11 @@ public class Jugador : MonoBehaviour
 
     public void cambiarEscena()
     {
-        Vector3 jugadorPosition = transform.position;
+        /*Vector3 jugadorPosition = transform.position;
         if (jugadorPosition.x >= 60 && jugadorPosition.x <= 62)
         {
             SceneManager.LoadScene("Final");
-        }
+        }*/
     }
 }
 
