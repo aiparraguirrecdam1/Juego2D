@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pinchos : MonoBehaviour
+public class Runas : MonoBehaviour
 {
-    public GameManager gameManager;
-    public Jugador jugador;
     // Start is called before the first frame update
+    public int valor = 3;
+    public GameManager gameManager;
     void Start()
     {
         
@@ -18,11 +18,12 @@ public class Pinchos : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            gameManager.PerderVida();
+            gameManager.sumarPuntos(valor);
+            Destroy(this.gameObject);
         }
     }
 }

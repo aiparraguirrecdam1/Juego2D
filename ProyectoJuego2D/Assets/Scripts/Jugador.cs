@@ -97,6 +97,7 @@ public class Jugador : MonoBehaviour
 
         if (jugadorPosition.y < limiteInferior) {
             RestablecerPosicion();
+            GameManager.PerderVida();
         }
     }
 

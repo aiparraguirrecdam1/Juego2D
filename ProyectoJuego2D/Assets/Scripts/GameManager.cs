@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -33,11 +34,7 @@ public class GameManager : MonoBehaviour
         hud.DesactivarVida(vidas);
         if (vidas == 0)
         {
-            Jugador.transform.position = new Vector3(-13.8f, -2.81f, 0f);
-            for (int i = 0; i < vidas; i++)
-            {
-                RecuperarVida();
-            }
+            cambiarEscena();
         }
     }
 
@@ -45,5 +42,10 @@ public class GameManager : MonoBehaviour
     {
         hud.ActivarVida(vidas);
         vidas += 1;        
+    }
+
+    public void cambiarEscena()
+    {
+         SceneManager.LoadScene("Reinicio");
     }
 }

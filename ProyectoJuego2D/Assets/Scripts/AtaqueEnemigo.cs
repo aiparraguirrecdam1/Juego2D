@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pinchos : MonoBehaviour
+public class Enemigo : MonoBehaviour
 {
     public GameManager gameManager;
-    public Jugador jugador;
+    Rigidbody2D rb2d;
     // Start is called before the first frame update
     void Start()
     {
