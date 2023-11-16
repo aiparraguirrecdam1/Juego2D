@@ -1,37 +1,7 @@
 fileFormatVersion: 2
-guid: 27a107940057e8743a507269b18a691a
+guid: 751596cda5bc07243af067f606f87321
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8187355101989356663
-    second: Checkpoint (Flag Idle)(64x64)_0
-  - first:
-      213: 3854939560234354291
-    second: Checkpoint (Flag Idle)(64x64)_1
-  - first:
-      213: -2176918498148329165
-    second: Checkpoint (Flag Idle)(64x64)_2
-  - first:
-      213: -1878543983233424424
-    second: Checkpoint (Flag Idle)(64x64)_3
-  - first:
-      213: 5249495973877922429
-    second: Checkpoint (Flag Idle)(64x64)_4
-  - first:
-      213: 7294162130811222863
-    second: Checkpoint (Flag Idle)(64x64)_5
-  - first:
-      213: 5907192917678821646
-    second: Checkpoint (Flag Idle)(64x64)_6
-  - first:
-      213: -3698963325330885405
-    second: Checkpoint (Flag Idle)(64x64)_7
-  - first:
-      213: -7168325035351650290
-    second: Checkpoint (Flag Idle)(64x64)_8
-  - first:
-      213: -8728669653598591988
-    second: Checkpoint (Flag Idle)(64x64)_9
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -64,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_0
+      name: Slime_Medium_Red_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 9
+        y: 107
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78fa78448f70c1e4faf49c9f88a9c54b
-      internalID: -8187355101989356663
+      spriteID: 8f383eb914292a04ab6223b86c033bbb
+      internalID: -1433506699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_1
+      name: Slime_Medium_Red_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 41
+        y: 106
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab3e50640594789418addc0acc5cbc36
-      internalID: 3854939560234354291
+      spriteID: 8842bb06c28fda540b2d15b88d1c3bc0
+      internalID: 1407067564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_2
+      name: Slime_Medium_Red_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 74
+        y: 105
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6168b3c29d1b8d648a71c46aa04577a7
-      internalID: -2176918498148329165
+      spriteID: 42cadfedbb5f61540a553b75b8a38022
+      internalID: -1160964948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_3
+      name: Slime_Medium_Red_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
+        x: 105
+        y: 106
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e74464f83e05e4f92c67249e2e2c25
-      internalID: -1878543983233424424
+      spriteID: 5c799f139f5733a4299c4fa43cdc83cc
+      internalID: -249599551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_4
+      name: Slime_Medium_Red_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
+        x: 9
+        y: 75
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4da96e01361d1774a8cbb03e94b32a8c
-      internalID: 5249495973877922429
+      spriteID: 81f1210d57e1cc34e8b30b298833ad42
+      internalID: -76406861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_5
+      name: Slime_Medium_Red_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
+        x: 41
+        y: 75
+        width: 15
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70dbacd09ee556d41872d40a6aad6ac8
-      internalID: 7294162130811222863
+      spriteID: c557840cf429a18419ff4f8acd9f5e38
+      internalID: 553877314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_6
+      name: Slime_Medium_Red_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
+        x: 72
+        y: 75
+        width: 17
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28c3be9e40a4bdb49a3c10f95a2fbf02
-      internalID: 5907192917678821646
+      spriteID: 3f856e1737ede8f48857fbe2e35b7432
+      internalID: -1814481134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_7
+      name: Slime_Medium_Red_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
+        x: 104
+        y: 75
+        width: 16
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 220aede3c45c00f4298430afe2b5ed54
-      internalID: -3698963325330885405
+      spriteID: e71f4af40aa7e8f4f9f1e7f564f2a6f9
+      internalID: -231162469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_8
+      name: Slime_Medium_Red_8
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
+        x: 9
+        y: 43
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ecf1bddbdede9e4f831427f0e872926
-      internalID: -7168325035351650290
+      spriteID: 5fec5530d9c8671439ec8478fa0826ae
+      internalID: 1120528396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint (Flag Idle)(64x64)_9
+      name: Slime_Medium_Red_9
       rect:
         serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
+        x: 41
+        y: 42
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,8 +313,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76a155caba278ac45bea2b8e7ffcea0f
-      internalID: -8728669653598591988
+      spriteID: 5d3c5fc0965c313499fc0483404865b6
+      internalID: 895341001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Red_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 41
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e281ccf3a1bdc34d946f19f1119bf24
+      internalID: 414514395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Red_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 42
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3d4a3e4560bdd4f9e0593c29a6d7ed
+      internalID: 1844130540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Red_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 11
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645729500f4e42045a7cfd811323af3e
+      internalID: -189471914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Red_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 11
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f979e669a4426ca45a7101a3620f3dd6
+      internalID: 1585352582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Red_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 11
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce67470f55109488e32cc22ba6b0c4
+      internalID: -713400024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_Medium_Red_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 11
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23882de36993a36408639156b4ab537d
+      internalID: -1808887625
       vertices: []
       indices: 
       edges: []
@@ -360,16 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Checkpoint (Flag Idle)(64x64)_0: -8187355101989356663
-      Checkpoint (Flag Idle)(64x64)_1: 3854939560234354291
-      Checkpoint (Flag Idle)(64x64)_2: -2176918498148329165
-      Checkpoint (Flag Idle)(64x64)_3: -1878543983233424424
-      Checkpoint (Flag Idle)(64x64)_4: 5249495973877922429
-      Checkpoint (Flag Idle)(64x64)_5: 7294162130811222863
-      Checkpoint (Flag Idle)(64x64)_6: 5907192917678821646
-      Checkpoint (Flag Idle)(64x64)_7: -3698963325330885405
-      Checkpoint (Flag Idle)(64x64)_8: -7168325035351650290
-      Checkpoint (Flag Idle)(64x64)_9: -8728669653598591988
+      Slime_Medium_Red_0: -1433506699
+      Slime_Medium_Red_1: 1407067564
+      Slime_Medium_Red_10: 414514395
+      Slime_Medium_Red_11: 1844130540
+      Slime_Medium_Red_12: -189471914
+      Slime_Medium_Red_13: 1585352582
+      Slime_Medium_Red_14: -713400024
+      Slime_Medium_Red_15: -1808887625
+      Slime_Medium_Red_2: -1160964948
+      Slime_Medium_Red_3: -249599551
+      Slime_Medium_Red_4: -76406861
+      Slime_Medium_Red_5: 553877314
+      Slime_Medium_Red_6: -1814481134
+      Slime_Medium_Red_7: -231162469
+      Slime_Medium_Red_8: 1120528396
+      Slime_Medium_Red_9: 895341001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

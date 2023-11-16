@@ -123,11 +123,11 @@ public class Jugador : MonoBehaviour
 
     public void cambiarEscena()
     {
-        /*Vector3 jugadorPosition = transform.position;
-        if (jugadorPosition.x >= 60 && jugadorPosition.x <= 62)
+        Vector3 jugadorPosition = transform.position;
+        if (jugadorPosition.x >= 161 && jugadorPosition.x <= 163)
         {
             SceneManager.LoadScene("Final");
-        }*/
+        }
     }
 }
 

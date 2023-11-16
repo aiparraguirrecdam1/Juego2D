@@ -5,7 +5,6 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     public GameManager gameManager;
-    Rigidbody2D rb2d;
     // Start is called before the first frame update
     void Start()
     {

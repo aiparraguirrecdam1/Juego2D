@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public int PuntosTotales { get { return puntosTotales; } }
     private int puntosTotales;
     public HUD hud;
-    private int vidas = 3;
+    public int vidas = 3;
     public Jugador Jugador;
     // Start is called before the first frame update
     void Start()
