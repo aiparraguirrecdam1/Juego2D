@@ -5,23 +5,28 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     public GameManager gameManager;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            gameManager.PerderVida();
+            bool reboto = false;
+
+            foreach (ContactPoint2D punto in other.contacts)
+            {
+                if (punto.normal.y <= -0.9)
+                {
+                    other.gameObject.GetComponent<Jugador>().Rebote();
+                    Destroy(this.gameObject);
+                    reboto = true;
+                    break;
+                }
+            }
+
+            if (!reboto)
+            {
+                gameManager.PerderVida();
+            }
         }
     }
 }

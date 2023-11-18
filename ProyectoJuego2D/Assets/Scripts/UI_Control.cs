@@ -30,4 +30,14 @@ public class NewBehaviourScript : MonoBehaviour
                 Application.Quit();
         #endif
     }
+
+    public void VolverMenu()
+    {
+        SceneManager.LoadScene("Inicio");
+    }
+
+    public void abrirOpciones()
+    {
+        SceneManager.LoadScene("Opciones");
+    }
 }

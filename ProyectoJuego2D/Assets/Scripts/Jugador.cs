@@ -11,6 +11,7 @@ public class Jugador : MonoBehaviour
     bool isRunning = false;
     bool isJumping = false;
     bool isAttacking = false;
+    bool atacando = false;
     public GameManager GameManager;
     public Jugador jugador;
     public float fuerzaSalto;
@@ -18,6 +19,9 @@ public class Jugador : MonoBehaviour
     public LayerMask capaPinchos;
     Animator animator;
     Rigidbody2D rb2d;
+    [Header("Rebote")]
+    [SerializeField] private float velocidadRebote;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -95,7 +99,7 @@ public class Jugador : MonoBehaviour
         Vector3 jugadorPosition = transform.position;
         float limiteInferior = -10f;
 
-        if (jugadorPosition.y < limiteInferior) {
+        if (jugadorPosition.y < limiteInferior && !EstaEnSuelo() && !isJumping) {
             RestablecerPosicion();
             GameManager.PerderVida();
         }
@@ -128,6 +132,11 @@ public class Jugador : MonoBehaviour
         {
             SceneManager.LoadScene("Final");
         }
+    }
+
+    public void Rebote()
+    {
+        rb2d.velocity = new Vector2(rb2d.velocity.x, velocidadRebote);
     }
 }
 

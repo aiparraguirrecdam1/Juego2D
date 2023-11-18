@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Reinicio.unity
     guid: 6d4842dec367c7848b5bf425fc713d9a
+  - enabled: 1
+    path: Assets/Scenes/Opciones.unity
+    guid: a222931f18f63934d9e3655d3a9724b7
   m_configObjects: {}

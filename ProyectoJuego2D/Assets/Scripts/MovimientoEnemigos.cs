@@ -43,10 +43,4 @@ public class MovimientoPlataforma : MonoBehaviour
         Gizmos.DrawLine(controladorSuelo.transform.position, controladorSuelo.transform.position + Vector3.down * distancia);
         //Gizmos.DrawLine(controladorObstaculo.transform.position, controladorObstaculo.transform.position + Vector3.right * distancia);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
