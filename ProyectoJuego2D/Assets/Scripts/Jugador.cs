@@ -60,7 +60,7 @@ public class Jugador : MonoBehaviour
         ProcesarSalto();
         DetectarCaidaDelMapa();
         Atacar();
-        cambiarEscena();
+        //cambiarEscena();
     }
 
     bool EstaEnSuelo()
@@ -125,14 +125,14 @@ public class Jugador : MonoBehaviour
         transform.position = new Vector3(-13.8f, -2.81f, 0f);
     }
 
-    public void cambiarEscena()
+    /*public void cambiarEscena()
     {
         Vector3 jugadorPosition = transform.position;
         if (jugadorPosition.x >= 161 && jugadorPosition.x <= 163)
         {
-            SceneManager.LoadScene("Final");
+            SceneManager.LoadScene("JuegoGanado");
         }
-    }
+    }*/
 
     public void Rebote()
     {

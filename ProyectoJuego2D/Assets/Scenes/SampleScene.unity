@@ -217,7 +217,6 @@ GameObject:
   m_Component:
   - component: {fileID: 48097568}
   - component: {fileID: 48097567}
-  - component: {fileID: 48097570}
   - component: {fileID: 48097569}
   m_Layer: 6
   m_Name: block-big
@@ -338,33 +337,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.1333334, y: 2.1333334}
   m_EdgeRadius: 0
---- !u!50 &48097570
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48097566}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &60300736
 GameObject:
   m_ObjectHideFlags: 0
@@ -2750,7 +2722,6 @@ GameObject:
   m_Component:
   - component: {fileID: 458006051}
   - component: {fileID: 458006054}
-  - component: {fileID: 458006053}
   - component: {fileID: 458006052}
   m_Layer: 6
   m_Name: big-crate (3)
@@ -2768,7 +2739,7 @@ Transform:
   m_GameObject: {fileID: 458006050}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.03, y: 8.51, z: 0}
+  m_LocalPosition: {x: 3.75, y: 0.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2819,33 +2790,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2, y: 3.2}
   m_EdgeRadius: 0
---- !u!50 &458006053
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458006050}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &458006054
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3153,7 +3097,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.296726, y: -3.6, z: -1}
+  m_LocalPosition: {x: 135.77327, y: -0.9, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3389,7 +3333,7 @@ Transform:
   m_GameObject: {fileID: 547075809}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.296726, y: -3.6, z: -1}
+  m_LocalPosition: {x: 135.77327, y: -0.9, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15540,26 +15484,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 125, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 126, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 128, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -15750,71 +15674,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 142, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 143, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 11
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 144, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 17
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 142, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 143, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 144, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 7a893bf30e8b23047a78c094f422fec4, type: 2}
-  - m_RefCount: 70
+  - m_RefCount: 69
     m_Data: {fileID: 11400000, guid: 5606929cc3879ca498521912b4988816, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0157b2ac8baf50c40ae0ea942f17e23a, type: 2}
@@ -15842,11 +15706,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 9ed7e8c9a43e9e543a50c234da7a8582, type: 2}
   - m_RefCount: 668
     m_Data: {fileID: 11400000, guid: 705478cd9da320047896e2831699e2a4, type: 2}
-  - m_RefCount: 86
+  - m_RefCount: 81
     m_Data: {fileID: 11400000, guid: 895290c18cceb6c4199b1b9eb62fff7a, type: 2}
   - m_RefCount: 61
     m_Data: {fileID: 11400000, guid: 5e2e2801b3d32fa4fa1bd97a9a6c211b, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 28aff7c9d8d86a44d9746c4c50e2bcfa, type: 2}
   - m_RefCount: 58
     m_Data: {fileID: 11400000, guid: 7b090590beb233a43ac9cb2b746aad07, type: 2}
@@ -15859,7 +15723,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 200d924199aa0fa4c83af3599d90e86e, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 5
+  - m_RefCount: 4
     m_Data: {fileID: -1122151221, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -15881,7 +15745,7 @@ Tilemap:
     m_Data: {fileID: -1724452651, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - m_RefCount: 668
     m_Data: {fileID: -1727392612, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
-  - m_RefCount: 70
+  - m_RefCount: 69
     m_Data: {fileID: 722760899, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1809391310, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
@@ -15889,11 +15753,11 @@ Tilemap:
     m_Data: {fileID: -839192656, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -337102267, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
-  - m_RefCount: 86
+  - m_RefCount: 81
     m_Data: {fileID: -1766307359, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - m_RefCount: 61
     m_Data: {fileID: 747311438, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: -836504486, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - m_RefCount: 58
     m_Data: {fileID: 1121040729, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
@@ -15906,7 +15770,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -1795069885, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1232
+  - m_RefCount: 1224
     m_Data:
       e00: 1
       e01: 0
@@ -15925,7 +15789,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 1232
+  - m_RefCount: 1224
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -16748,7 +16612,6 @@ GameObject:
   m_Component:
   - component: {fileID: 668323862}
   - component: {fileID: 668323861}
-  - component: {fileID: 668323864}
   - component: {fileID: 668323863}
   m_Layer: 6
   m_Name: big-crate
@@ -16869,33 +16732,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2, y: 3.2}
   m_EdgeRadius: 0
---- !u!50 &668323864
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668323860}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &688371118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17662,7 +17498,6 @@ GameObject:
   - component: {fileID: 777719972}
   - component: {fileID: 777719973}
   - component: {fileID: 777719975}
-  - component: {fileID: 777719974}
   m_Layer: 6
   m_Name: crate (2)
   m_TagString: Untagged
@@ -17737,33 +17572,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &777719974
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777719971}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &777719975
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18001,7 +17809,7 @@ Transform:
   m_GameObject: {fileID: 800959419}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16, y: -3.6, z: 0}
+  m_LocalPosition: {x: 125.07, y: -0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18199,11 +18007,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3922674051861101217, guid: a7786d01442d3a94bbbc4546a8ab45f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 141.14
+      value: 148.72
       objectReference: {fileID: 0}
     - target: {fileID: 3922674051861101217, guid: a7786d01442d3a94bbbc4546a8ab45f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.97
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 3922674051861101217, guid: a7786d01442d3a94bbbc4546a8ab45f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19638,7 +19446,6 @@ GameObject:
   - component: {fileID: 1103087885}
   - component: {fileID: 1103087886}
   - component: {fileID: 1103087888}
-  - component: {fileID: 1103087887}
   m_Layer: 6
   m_Name: crate
   m_TagString: Untagged
@@ -19713,33 +19520,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1103087887
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103087884}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &1103087888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22852,7 +22632,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1547230259}
   - component: {fileID: 1547230262}
-  - component: {fileID: 1547230261}
   - component: {fileID: 1547230260}
   m_Layer: 6
   m_Name: big-crate (1)
@@ -22921,33 +22700,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2, y: 3.2}
   m_EdgeRadius: 0
---- !u!50 &1547230261
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547230258}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &1547230262
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24862,7 +24614,6 @@ GameObject:
   - component: {fileID: 1844561896}
   - component: {fileID: 1844561897}
   - component: {fileID: 1844561899}
-  - component: {fileID: 1844561898}
   m_Layer: 6
   m_Name: crate (1)
   m_TagString: Untagged
@@ -24937,33 +24688,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1844561898
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844561895}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &1844561899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28195,13 +27919,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Key_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5633139875248382045, guid: 95b37ed29c22f3b45a7274339aaf7cb1, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 537763200}
     - target: {fileID: 6595543932449070659, guid: 95b37ed29c22f3b45a7274339aaf7cb1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 113.49
+      value: 114.68
       objectReference: {fileID: 0}
     - target: {fileID: 6595543932449070659, guid: 95b37ed29c22f3b45a7274339aaf7cb1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.12
+      value: -3.24
       objectReference: {fileID: 0}
     - target: {fileID: 6595543932449070659, guid: 95b37ed29c22f3b45a7274339aaf7cb1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28234,6 +27962,10 @@ PrefabInstance:
     - target: {fileID: 6595543932449070659, guid: 95b37ed29c22f3b45a7274339aaf7cb1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6880136561207401933, guid: 95b37ed29c22f3b45a7274339aaf7cb1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28318,11 +28050,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 6c431a2e98a878848b180ab9218d6692, type: 3}
     - target: {fileID: 1649335170925231931, guid: a06bcd465477ec14da79b939e4e0e91c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 94.91
+      value: 90.88
       objectReference: {fileID: 0}
     - target: {fileID: 1649335170925231931, guid: a06bcd465477ec14da79b939e4e0e91c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.92
+      value: 3.63
       objectReference: {fileID: 0}
     - target: {fileID: 1649335170925231931, guid: a06bcd465477ec14da79b939e4e0e91c, type: 3}
       propertyPath: m_LocalPosition.z
