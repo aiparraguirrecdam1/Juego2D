@@ -7,7 +7,6 @@ public class ControladorSonido : MonoBehaviour
     // Start is called before the first frame update
     public static ControladorSonido Instance;
     private AudioSource audioSource;
-
     private void Awake()
     {
         if (Instance == null)

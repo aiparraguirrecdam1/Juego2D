@@ -22,7 +22,6 @@ public class Jugador : MonoBehaviour
     [Header("Rebote")]
     [SerializeField] private float velocidadRebote;
     
-
     // Start is called before the first frame update
     void Start()
     {
@@ -124,15 +123,6 @@ public class Jugador : MonoBehaviour
     {
         transform.position = new Vector3(-13.8f, -2.81f, 0f);
     }
-
-    /*public void cambiarEscena()
-    {
-        Vector3 jugadorPosition = transform.position;
-        if (jugadorPosition.x >= 161 && jugadorPosition.x <= 163)
-        {
-            SceneManager.LoadScene("JuegoGanado");
-        }
-    }*/
 
     public void Rebote()
     {
