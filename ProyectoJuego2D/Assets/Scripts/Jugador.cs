@@ -11,7 +11,6 @@ public class Jugador : MonoBehaviour
     bool isRunning = false;
     bool isJumping = false;
     bool isAttacking = false;
-    bool atacando = false;
     public GameManager GameManager;
     public Jugador jugador;
     public float fuerzaSalto;

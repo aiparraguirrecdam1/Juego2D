@@ -11,6 +11,7 @@ public class MovimientoPlataforma : MonoBehaviour
     //[SerializeField] private float distanciaDerecha;
     [SerializeField] private bool moviendoDerecha;
     private Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Start()
     {

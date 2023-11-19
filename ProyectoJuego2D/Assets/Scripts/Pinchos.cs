@@ -6,17 +6,6 @@ public class Pinchos : MonoBehaviour
 {
     public GameManager gameManager;
     public Jugador jugador;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
